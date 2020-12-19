@@ -1,0 +1,31 @@
+#compo {
+    height: 100vh;
+
+    iframe {
+        margin: 0 auto;
+    }
+
+    .desc {
+        font-style: italic;
+    
+        p {
+            margin: 1rem 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #compo iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #compo iframe {
+        display: block!important;
+    }
+
+    #compo .desc {
+        text-align: center!important;
+    }
+}

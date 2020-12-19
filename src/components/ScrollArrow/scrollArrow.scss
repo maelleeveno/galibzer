@@ -1,0 +1,45 @@
+.icon.scroll-arrow{
+    color: var(--theme-page-text);
+    position: fixed;
+    bottom: 5rem;
+    right: 10rem;
+    font-size: 2em;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+    z-index: 1000;
+}
+
+.icon.icon.scroll-arrow:hover {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon.scroll-arrow {
+        right: 0.5rem;
+        bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .icon.scroll-arrow {
+        right: 2rem;
+        bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .icon.scroll-arrow {
+        right: 20rem;
+    }
+}

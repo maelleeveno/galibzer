@@ -1,0 +1,96 @@
+#about {
+    position: relative;
+    margin: 10rem 0 5rem 0;
+    padding: 4rem 0;
+    border-top: 5px solid var(--theme-page-text);
+    border-bottom: 5px solid var(--theme-page-text);
+    text-align: center;
+}
+
+#about .section-title {
+    padding-bottom: 4rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: 700;
+}
+
+#about .fr {
+    text-align: left;
+
+    &.description {
+        padding-right: 1rem;
+    }
+}
+
+#about {
+    .en {
+        text-align: right;
+
+        &.description {
+            font-style: italic;
+            padding-left: 1rem;
+        }
+    }
+}
+
+#about .softwares {
+    margin-top: 4rem;
+    letter-spacing: 0.2rem;;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 4rem auto 0 auto;
+    padding: 0;
+}
+
+.socials i.icon {
+    font-size: 2em;
+    transition: all 0.2s 0s ease;
+}
+
+.socials a:hover {
+    border-bottom: none;
+}
+
+.socials i.icon:hover {
+    color: var(--theme-page-hover);
+}
+
+/* ------------------------ */
+/* ------ RESPONSIVE ------ */
+/* ------------------------ */
+
+@media screen and (max-width: 768px) {
+    #about {
+        margin: 5rem 0;
+
+        .section-title {
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+
+        .description {
+            text-align: center;
+        }
+
+        .socials ul {
+            margin-top: 2rem;
+            width: 50%;
+        }
+
+        .softwares {
+            letter-spacing: 0;
+        }
+    }
+
+    
+
+    #about .ui.grid>[class*="two column"].row>.column {
+        width: 100%!important;
+        margin-bottom: 3rem;
+    }
+}
