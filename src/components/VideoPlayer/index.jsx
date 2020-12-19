@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import './video.scss';
 
 const VideoPlayer = (props) => {
 	return (
@@ -9,12 +8,11 @@ const VideoPlayer = (props) => {
                 {src: `${props.videoMp4}`, type: 'video/mp4'},
                 {src: `${props.videoWebm}`, type: 'video/webm'},
             ]}
-            className="video-player" 
+            className={props.className}
             playsinline={true} 
             muted={true} 
             playing={true} 
-            loop={true} 
-            width="100%"/>
+            loop={true} />
 	);
 }
 

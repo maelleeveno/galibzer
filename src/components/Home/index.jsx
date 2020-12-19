@@ -13,7 +13,7 @@ const Home = () => {
 		<Layout>
 			<section id="home">
 				<Title title="Home | Pacôme Gabrillagues"/>
-					<VideoPlayer videoMp4={homeMp4} videoWebm={homeWebm} />
+				<VideoPlayer className="video-player" videoMp4={homeMp4} videoWebm={homeWebm} />
 				<About/>
 			</section>
 		</Layout>
