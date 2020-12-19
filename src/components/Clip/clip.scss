@@ -1,0 +1,106 @@
+.clip {
+    transition: margin-right 2s, color 1s;
+}
+
+.clip .clip-subsection {
+    margin-bottom: 10rem;
+}
+
+.clip .ui.grid>[class*="two column"].row>.column.carousel {
+    width: 80%!important;
+}
+
+.clip .ui.grid>[class*="two column"].row>.column.project-desc {
+    width: 20%!important;
+}
+
+.clip img {
+    width: 330px!important;
+}
+
+.clip .project-presentation {
+    font-size: 0.9em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 325px;
+    opacity: 1;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.clip .project-title {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+.clip .project-title:hover {
+    color: var(--theme-page-hover);
+}
+
+.clip .project-presentation a:hover {
+    color: var(--theme-page-hover);
+}
+
+.clip .show {
+    transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -webkit-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -moz-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -ms-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -o-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    height: 100%;
+    opacity: 1;
+}
+
+.clip .hide {
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -webkit-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -moz-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -ms-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -o-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    height: 0px;
+    opacity: 0;
+}
+
+.clip .project-presentation .view-more {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {    
+    .clip .clip-subsection {
+        margin-bottom: 3rem;
+    }
+    
+    .clip .ui.grid>[class*="two column"].row>.column.carousel {
+        width: 100%!important;
+    }
+    
+    .clip .ui.grid>[class*="two column"].row>.column.project-desc {
+        width: 100%!important;
+    }
+
+    .clip .project-presentation {
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .clip img {
+        width: 280px!important;
+        margin-right: 0 5px!important;
+    }
+
+    .clip .react-multi-carousel-item {
+        flex: none!important;
+        width: 100%!important;
+        position: inherit!important;
+    }
+}

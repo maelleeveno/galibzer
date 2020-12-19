@@ -1,0 +1,107 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: smooth;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.App {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 300;
+  padding: 0 15rem;
+  margin: 0 auto;
+  background-color: var(--theme-page-background);
+  color: var(--theme-page-text);
+}
+
+.App a {
+  color: var(--theme-page-text);
+  padding-bottom: 0.5rem;
+  transition: all 0.5s 0s ease;
+}
+
+.App a:hover {
+  color: var(--theme-page-text);
+}
+
+.App ul {
+  list-style-type: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.loading {
+  height: 100vh;
+  position: relative;
+  top: 50vh;
+  padding-top: 50vh;
+  transform: translateY(-50%);
+  font-size: 3em;
+  text-align: center;
+}
+
+.swiper-button-next {
+  background-image: url('../images/arrow_right.png')!important;
+  background-size: 25px 25px;
+}
+
+.swiper-button-prev {
+  background-image: url('../images/arrow_left.png')!important;
+  background-size: 25px 25px;
+}
+
+.swiper-button-next:focus, .swiper-button-prev:focus {
+  outline:none;
+}
+
+/* ------------------------ */
+/* ------ RESPONSIVE ------ */
+/* ------------------------ */
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0;
+  }
+
+  .swiper-button-next {
+    right: 2.5rem;
+    background-size: 20px 20px;
+  }
+
+  .swiper-button-prev {
+    left: 2.5rem;
+    background-size: 20px 20px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .App {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .App {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .App {
+    padding: 0 35rem;
+  }
+}

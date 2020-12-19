@@ -1,0 +1,20 @@
+#stereo {
+    height: 100vh;
+
+    img.gif {
+        padding: 1rem 0;
+        width: 350px;
+    }
+
+    .desc {
+        font-style: italic;
+    
+        p {
+            margin: 0;
+        }
+    
+        a:hover {
+            color: var(--theme-page-hover);
+        }
+    }
+}

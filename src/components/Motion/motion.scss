@@ -1,0 +1,110 @@
+.motion {
+    transition: margin-right 2s, color 1s;
+}
+
+.motion .motion-subsection {
+    margin-bottom: 10rem;
+}
+
+.motion .ui.grid>[class*="two column"].row>.column.carousel {
+    width: 80%!important;
+}
+
+.motion .ui.grid>[class*="two column"].row>.column.project-desc {
+    width: 20%!important;
+}
+
+.motion img{
+    width: 330px!important;
+}
+
+.motion .project-presentation {
+    font-size: 0.9em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 325px;
+    opacity: 1;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.motion .project-title {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+.motion .project-title:hover {
+    color: var(--theme-page-hover);
+}
+
+.motion .project-presentation a:hover {
+    color: var(--theme-page-hover);
+}
+
+.motion .show {
+    transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -webkit-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -moz-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -ms-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    -o-transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    height: 100%;
+    opacity: 1;
+}
+
+.motion .hide {
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -webkit-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -moz-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -ms-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    -o-transition: height 0.5s ease-out, opacity 0.5s ease-out;
+    height: 0px;
+    opacity: 0;
+}
+
+.motion .project-presentation .view-more {
+    margin-top: 1rem;
+}
+
+/* ------------------------ */
+/* ------ RESPONSIVE ------ */
+/* ------------------------ */
+
+@media screen and (max-width: 768px) {
+    .motion .motion-subsection {
+        margin-bottom: 3rem;
+    }
+    
+    .motion .ui.grid>[class*="two column"].row>.column.carousel {
+        width: 100%!important;
+    }
+    
+    .motion .ui.grid>[class*="two column"].row>.column.project-desc {
+        width: 100%!important;
+    }
+
+    .motion .project-presentation {
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .motion img {
+        width: 280px!important;
+        margin-right: 0 5px!important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .motion .project-presentation {
+        margin-left: 0rem;
+    }
+}

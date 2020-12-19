@@ -1,0 +1,47 @@
+button.theme-button {
+    position: absolute;
+    right: 15rem;
+    top: 4rem;
+    width: 3.8rem;
+    height: 2rem;
+    padding: 0.625rem 1rem;
+    border: 1px solid var(--theme-color);
+    border-radius: 15px;
+    background-color: var(--theme-page-background);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+button.theme-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: var(--theme-button-position);
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-page-text);
+    border-radius: 8px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: left 100ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: left 100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    button.theme-button {
+        right: 1rem;
+        top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    button.theme-button {
+        right: 35rem;
+    }
+}
