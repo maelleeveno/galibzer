@@ -3,17 +3,6 @@
     text-align: center;
 }
 
-.home-gif {
-    display: inline-block;
-}
-
 /* ------------------------ */
 /* ------ RESPONSIVE ------ */
 /* ------------------------ */
-
-@media screen and (max-width: 768px) {
-    .home-gif {
-        top: 0;
-        height: auto!important;
-    }
-}

@@ -2,19 +2,18 @@ import React from 'react';
 import Layout from '../Layout';
 import About from './About';
 import Title from '../Title';
-import ReactPlayer from 'react-player'
-import homeGif from '../../assets/images/home.mp4';
+import VideoPlayer from '../VideoPlayer';
 import './home.scss';
 
-
-
+import homeMp4 from '../../assets/images/home.mp4';
+import homeWebm from '../../assets/images/home.mp4';
 
 const Home = () => {
 	return (
 		<Layout>
 			<section id="home">
 				<Title title="Home | Pacôme Gabrillagues"/>
-					<ReactPlayer url={homeGif} className="home-gif" playsinline={true} muted={true} playing={true} loop={true} width="100%"/>
+					<VideoPlayer videoMp4={homeMp4} videoWebm={homeWebm} />
 				<About/>
 			</section>
 		</Layout>
