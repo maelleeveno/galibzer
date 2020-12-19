@@ -47,7 +47,7 @@ const Leclerc = () => {
 					</Grid.Column>
 					<Grid.Column className="project-desc">
 						<div className="project-presentation">
-							<div className="project-title" onClick={onClick}>Leclerc <Icon name={arrowDir}/></div>
+							<div className="project-title" onClick={onClick}>E.Leclerc <Icon name={arrowDir}/></div>
 							<div className={showDesc}>
 								<p><span className="bold">Illustrations by</span><br/>Antoine Corbineau</p>
 								<p><span className="bold">About the project</span><br/>2020 Tour de France campaign.</p>
