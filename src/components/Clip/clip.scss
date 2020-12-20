@@ -14,7 +14,7 @@
     width: 20%!important;
 }
 
-.clip img {
+.clip .gif {
     width: 330px!important;
 }
 
@@ -72,6 +72,20 @@
 
 .clip .project-presentation .view-more {
     margin-top: 1rem;
+}
+
+.end-message, .loading, .end-message i, .loading i {
+    text-align: center;
+    font-style: italic;
+    font-size: 1em!important;
+    margin: 0!important;
+    padding: 0!important;
+    letter-spacing: 0.1em;
+    color: var(--theme-page-text);
+}
+
+.no-y-scroll {
+    overflow: hidden!important;
 }
 
 @media screen and (max-width: 768px) {    

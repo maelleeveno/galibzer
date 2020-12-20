@@ -18,6 +18,9 @@ const Kaviar = () => {
 		spaceBetween: 20,
 		centeredSlides: true,
 		slidesPerView: 'auto',
+        rebuildOnUpdate: true,
+        shouldSwiperUpdate: true,
+        observer: true,
 	};
 
 	const [showDesc, setShowDesc] = useState('hide');
