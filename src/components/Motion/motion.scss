@@ -74,6 +74,16 @@
     margin-top: 1rem;
 }
 
+.end-message, .loading {
+    text-align: center;
+    font-style: italic;
+
+}
+
+.no-y-scroll {
+    overflow: hidden!important;
+}
+
 /* ------------------------ */
 /* ------ RESPONSIVE ------ */
 /* ------------------------ */
