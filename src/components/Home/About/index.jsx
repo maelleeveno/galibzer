@@ -25,6 +25,11 @@ export default class About extends Component {
 					"link": "https://instagram.com/galibzer",
 					"title": "Suivez moi sur Instagram",
 				},
+				{
+					"name": "strava",
+					"link": "https://www.strava.com/athletes/18121640",
+					"title": "Suivez mes aventures sportives",
+				},
 			],
 		}
 		
