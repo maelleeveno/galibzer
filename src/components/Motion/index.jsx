@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import { Icon } from 'semantic-ui-react';
 import Layout from '../Layout';
 import Title from '../Title';
 import './motion.scss';
@@ -16,9 +17,8 @@ import ChicagoFire from './chicagofire';
 
 const Motion = () => {
 
-	const [state, setState] = useState({ items: [<Hennessy/>] });
+	const [state, setState] = useState({ items: [<Hennessy/>, <AirFrance/>] });
 	const [extraComponents] = useState([
-		<AirFrance/>,
 		<BigInJapan/>,
 		<Orangina/>,
 		<Peugeot/>,
@@ -28,9 +28,8 @@ const Motion = () => {
 	]);
 	const [count, setCount] = useState(0);
 	const [hasMore, setHasMore] = useState(true);
-	
 	const fetchMoreData = () => {
-		if(state.items.length >=20 ) {
+		if(state.items.length >= 8 ) {
 			setHasMore(false);
 			return;
 		}
@@ -50,10 +49,12 @@ const Motion = () => {
 					dataLength={state.items.length}
 					next={fetchMoreData}
 					hasMore={hasMore}
-					loader={<p className="loading">Loading...</p>}
+					loader={<p className="loading"><Icon name="hourglass half"/> Loading more content...</p>}
 					endMessage={
-						<p className="end-message">Yay! Nothing more to see for now :)</p>
+						<p className="end-message"><Icon name="check"/> Yay ! That's all for now :)</p>
 					}
+					pullDownToRefreshThreshold={10}
+					initialScrollY
 					className="no-y-scroll"
 				>
 					{state.items.map( (i, index) => i)}				
