@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.video-player {
+.home-gif {
     display: inline-block;
     width: auto!important;
     height: auto!important;
@@ -14,7 +14,7 @@
 /* ------------------------ */
 
 @media screen and (max-width: 768px) {
-    .video-player {
+    .home-gif {
         top: 0;
         height: auto!important;
     }

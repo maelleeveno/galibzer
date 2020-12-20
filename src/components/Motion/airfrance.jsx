@@ -1,18 +1,12 @@
 import React, { useState } from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
 import Swiper from 'react-id-swiper';
-import VideoPlayer from '../VideoPlayer';
 import './motion.scss';
 
-import af1Mp4 from '../../assets/images/motion/air-france/AIRFRANCE_1.mp4';
-import af2Mp4 from '../../assets/images/motion/air-france/AIRFRANCE_2.mp4';
-import af3Mp4 from '../../assets/images/motion/air-france/AIRFRANCE_3.mp4';
-import af4Mp4 from '../../assets/images/motion/air-france/AIRFRANCE_4.mp4';
-
-import af1Webm from '../../assets/images/motion/air-france/AIRFRANCE_1.mp4';
-import af2Webm from '../../assets/images/motion/air-france/AIRFRANCE_2.mp4';
-import af3Webm from '../../assets/images/motion/air-france/AIRFRANCE_3.mp4';
-import af4Webm from '../../assets/images/motion/air-france/AIRFRANCE_4.mp4';
+import af1 from '../../assets/images/motion/air-france/AIRFRANCE_1.gif';
+import af2 from '../../assets/images/motion/air-france/AIRFRANCE_2.gif';
+import af3 from '../../assets/images/motion/air-france/AIRFRANCE_3.gif';
+import af4 from '../../assets/images/motion/air-france/AIRFRANCE_4.gif';
 
 const AirFrance = () => {
 
@@ -27,6 +21,8 @@ const AirFrance = () => {
 		centeredSlides: true,
         slidesPerView: 'auto',
         rebuildOnUpdate: true,
+        shouldSwiperUpdate: true,
+        observer: true,
     };
 
 	const [showDesc, setShowDesc] = useState('hide');
@@ -47,11 +43,11 @@ const AirFrance = () => {
             <Grid className="motion-subsection">
                 <Grid.Row columns={2}>
                     <Grid.Column className="carousel">
-                        <Swiper {...params} shouldSwiperUpdate>
-                            <VideoPlayer className="gif swiper-slide" videoMp4={af1Mp4} videoWebm={af1Webm} />
-                            <VideoPlayer className="gif swiper-slide" videoMp4={af2Mp4} videoWebm={af2Webm} />
-                            <VideoPlayer className="gif swiper-slide" videoMp4={af3Mp4} videoWebm={af3Webm} />
-                            <VideoPlayer className="gif swiper-slide" videoMp4={af4Mp4} videoWebm={af4Webm} />
+                        <Swiper {...params}>
+                            <img className="gif swiper-slide" src={af1} alt=""/>
+                            <img className="gif swiper-slide" src={af2} alt=""/>
+                            <img className="gif swiper-slide" src={af3} alt=""/>
+                            <img className="gif swiper-slide" src={af4} alt=""/>
                         </Swiper>
                     </Grid.Column>
                     <Grid.Column  className="project-desc">

@@ -5,15 +5,14 @@ import Title from '../Title';
 import VideoPlayer from '../VideoPlayer';
 import './home.scss';
 
-import homeMp4 from '../../assets/images/home.mp4';
-import homeWebm from '../../assets/images/home.mp4';
+import home from '../../assets/images/home.gif';
 
 const Home = () => {
 	return (
 		<Layout>
 			<section id="home">
 				<Title title="Home | Pacôme Gabrillagues"/>
-				<VideoPlayer className="video-player" videoMp4={homeMp4} videoWebm={homeWebm} />
+				<img className="home-gif" src={home} alt=""/>
 				<About/>
 			</section>
 		</Layout>
