@@ -5,8 +5,6 @@
 
 .home-gif {
     display: inline-block;
-    width: auto!important;
-    height: auto!important;
 }
 
 /* ------------------------ */
@@ -17,5 +15,6 @@
     .home-gif {
         top: 0;
         height: auto!important;
+        width: 100%;
     }
 }

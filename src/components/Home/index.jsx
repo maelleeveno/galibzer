@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../Layout';
 import About from './About';
 import Title from '../Title';
-import VideoPlayer from '../VideoPlayer';
 import './home.scss';
 
 import home from '../../assets/images/home.gif';
