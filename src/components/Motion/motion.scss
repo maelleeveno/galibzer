@@ -74,6 +74,27 @@
     margin-top: 1rem;
 }
 
+<<<<<<< HEAD
+.end-message, .loading, .end-message i, .loading i {
+    text-align: center;
+    font-style: italic;
+    font-size: 1em!important;
+    margin: 0!important;
+    padding: 0!important;
+    letter-spacing: 0.1em;
+    color: var(--theme-page-text);
+=======
+.end-message, .loading {
+    text-align: center;
+    font-style: italic;
+
+>>>>>>> 113ec968d6c48eb210688647f58b0c6ffbad9713
+}
+
+.no-y-scroll {
+    overflow: hidden!important;
+}
+
 /* ------------------------ */
 /* ------ RESPONSIVE ------ */
 /* ------------------------ */
