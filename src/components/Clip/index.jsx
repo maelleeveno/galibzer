@@ -41,7 +41,7 @@ const Clip = () => {
 					hasMore={hasMore}
 					loader={<p className="loading"><Icon name="hourglass half"/> Loading more content...</p>}
 					endMessage={
-						<p className="end-message"><Icon name="check"/> Yay ! That's all for now :)</p>
+						<p className="end-message"><Icon name="check"/> Yay ! That's it for now :)</p>
 					}
 					className="no-y-scroll"
 				>
