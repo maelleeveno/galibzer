@@ -12,7 +12,7 @@ export default class About extends Component {
 			"contact": [
 				{
 					"name": "mail",
-					"link": "mailto:pacomegabrillagues@gmail.com",
+					"link": "mailto:pacome@galibzer.com",
 					"title": "Contactez moi par mail",
 				},
 				{
