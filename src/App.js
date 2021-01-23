@@ -10,6 +10,7 @@ import Motion from './components/Motion';
 import Clip from './components/Clip';
 import Compo from './components/Compo';
 import Stereo from './components/Stereo';
+import Legal from './components/Legal';
 
 const App = () => {
 
@@ -36,6 +37,7 @@ const App = () => {
             <Route exact path="/compo" component={Compo}/>
             <Route exact path="/clip" component={Clip}/>
             <Route exact path="/stereo" component={Stereo}/>
+            <Route exact patch="/legal" component={Legal}/>
             <Route exact path="/404" component={NotFound}/>
             <Redirect to="/404"/>
           </Switch>
