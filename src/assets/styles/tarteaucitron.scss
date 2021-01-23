@@ -375,13 +375,11 @@ div#tarteaucitronServices {
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed {
     background-color:#fff;
     color: #333;
-    border: 1px solid #333;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied {
     background-color:#fff;
     color: #333;
-    border: 1px solid #333;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronMainLine {
@@ -563,7 +561,7 @@ span#tarteaucitronDisclaimerAlert {
 
 #tarteaucitronRoot .tarteaucitronDeny:hover {
     color: #fff;
-    background-color: #333;
+    background-color: lightcoral;
 
     .tarteaucitronCross::before {
         color: #fff;
@@ -572,7 +570,7 @@ span#tarteaucitronDisclaimerAlert {
 
 #tarteaucitronRoot .tarteaucitronAllow:hover {
     color: #fff!important;
-    background-color: #333;
+    background-color: lightseagreen;
 
     .tarteaucitronCheck::before {
         color: #fff!important;
@@ -581,7 +579,7 @@ span#tarteaucitronDisclaimerAlert {
 
 #tarteaucitronRoot #tarteaucitronCloseAlert:hover {
     color: #fff!important;
-    background-color: #333;
+    background-color: #aaa;
 }
 
 #tarteaucitronAlertBig #tarteaucitronCloseAlert, #tarteaucitron #tarteaucitronPrivacyUrl, #tarteaucitron #tarteaucitronPrivacyUrlDialog {
