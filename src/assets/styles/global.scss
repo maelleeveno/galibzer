@@ -54,6 +54,14 @@ html {
   text-align: center;
 }
 
+.visibility-hidden {
+  visibility: hidden;
+  position: absolute;
+  top: -5rem;
+  left: -5rem;
+  z-index: -9;
+}
+
 .swiper-button-next {
   background-image: url('../images/arrow_right.png')!important;
   background-size: 25px 25px;
