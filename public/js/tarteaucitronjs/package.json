@@ -1,0 +1,55 @@
+{
+  "_from": "tarteaucitronjs",
+  "_id": "tarteaucitronjs@1.8.3",
+  "_inBundle": false,
+  "_integrity": "sha512-WB4O4t6rFC8aaRg0hFuE0Xcx/SnMTU5KeT/aQAsOOja/EwsSaIOdedD4UcxXb2XYn+CuscSIl9mRPkGgqm6kFA==",
+  "_location": "/tarteaucitronjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "tarteaucitronjs",
+    "name": "tarteaucitronjs",
+    "escapedName": "tarteaucitronjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tarteaucitronjs/-/tarteaucitronjs-1.8.3.tgz",
+  "_shasum": "7f0a9fda80b983e19d6fdd5fcb34424ffdc961e8",
+  "_spec": "tarteaucitronjs",
+  "_where": "/Users/MaelleEveno/Desktop/DEV/PERSO/galibzer",
+  "author": {
+    "name": "Amauri.IO"
+  },
+  "bugs": {
+    "url": "https://github.com/AmauriC/tarteaucitron.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Comply to the European cookie law",
+  "devDependencies": {},
+  "homepage": "https://github.com/AmauriC/tarteaucitron.js#readme",
+  "keywords": [
+    "cookie",
+    "law",
+    "rgpd",
+    "gdpr",
+    "cookie"
+  ],
+  "license": "MIT",
+  "name": "tarteaucitronjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmauriC/tarteaucitron.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}
