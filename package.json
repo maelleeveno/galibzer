@@ -27,6 +27,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
     "swiper": "^5.4.5",
+    "tarteaucitronjs": "^1.8.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
