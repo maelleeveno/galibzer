@@ -9,10 +9,11 @@ const Compo = () => {
 		<Layout>
 			<Title title="Compo | Pacôme Gabrillagues"/>
 			<section id="compo">
-			<iframe className="youtube-video" title="Compo" width="800" height="329" src="https://www.youtube.com/embed/MroM53rxDlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<div className="desc">
-				<p>AE VFX compositing showreel featuring a compilation of some recent works.</p>
-			</div>
+				{/* <div className="youtube_player" videoid="MroM53rxDlw" width="100%" height="329"></div> */}
+				<iframe className="youtube-video" title="Compo" width="800" height="329" src="https://www.youtube.com/embed/MroM53rxDlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div className="desc">
+					<p>AE VFX compositing showreel featuring a compilation of some recent works.</p>
+				</div>
 			</section>
 		</Layout>
 	);

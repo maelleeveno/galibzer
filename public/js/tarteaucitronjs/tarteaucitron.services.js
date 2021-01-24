@@ -2518,7 +2518,7 @@ tarteaucitron.services.youtube = {
     "js": function () {
         "use strict";
         tarteaucitron.fallback(['youtube_player'], function (x) {
-            var video_id = x.getAttribute("videoID"),
+            var video_id = x.getAttribute("videoid"),
                 video_width = x.getAttribute("width"),
                 frame_width = 'width=',
                 video_height = x.getAttribute("height"),
