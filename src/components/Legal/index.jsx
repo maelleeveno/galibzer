@@ -67,6 +67,8 @@ const Legal = () => {
                     <li>Nom du cookie : Google Analytics</li>
                     <li>Finalité : Statistiques des mesures d'audiance sur Google Analytics</li>
                     <li>Durée de conservation : 12 mois</li>
+                    <li><strong>Cookie tiers destiné à améliorer l'interactivité du site</strong></li>
+                    <li>Video diffusée sur le site (youtube)</li>
                 </ul>
 
                 <p>Le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. L’utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l’installation des cookies :</p>
