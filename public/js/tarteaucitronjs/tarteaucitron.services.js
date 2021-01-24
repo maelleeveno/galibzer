@@ -16,7 +16,7 @@ tarteaucitron.services.iframe = {
                 height = x.getAttribute("height"),
                 url = x.getAttribute("data-url");
 
-            return '<iframe src="' + url + '" width="' + width + '" height="' + height + '" frameborder="0" scrolling="no" allowtransparency allowfullscreen></iframe>';
+            return '<iframe src="' + url + '" width="' + width + '" height="' + height + '" frameborder="0" scrolling="no" allowtransparency allowFullScreen></iframe>';
         });
     },
     "fallback": function () {

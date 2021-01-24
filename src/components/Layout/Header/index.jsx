@@ -8,7 +8,7 @@ const Header = () => {
         <header id="header">
             <div className="banner">
                 <NavLink to="/">
-                    <h1 class="visibility-hidden">Pacôme Gabrillagues</h1>
+                    <h1 className="visibility-hidden">Pacôme Gabrillagues</h1>
                     <div className="site-name">
                         <span>Pacôme</span>
                         <span>Gabrillagues</span>

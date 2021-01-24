@@ -50,7 +50,7 @@ const Stereo = () => {
 					<img className="gif swiper-slide" src={stereo1} alt="" />
 					<img className="gif swiper-slide" src={stereo12} alt="" />
 				</Swiper>
-				<div class="desc">
+				<div className="desc">
 					<p>Some pics shot with a Nimslo 3d camera and edited with AE for Instagram</p>
 					<a href="https://instagram.com/galibzer" target="_blank" rel="noreferrer"><p><Icon name="instagram"/> View more</p></a>
 				</div>

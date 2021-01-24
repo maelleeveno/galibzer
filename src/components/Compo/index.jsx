@@ -10,7 +10,7 @@ const Compo = () => {
 			<Title title="Compo | Pacôme Gabrillagues"/>
 			<section id="compo">
 			<iframe className="youtube-video" title="Compo" width="800" height="329" src="https://www.youtube.com/embed/MroM53rxDlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<div class="desc">
+			<div className="desc">
 				<p>AE VFX compositing showreel featuring a compilation of some recent works.</p>
 			</div>
 			</section>

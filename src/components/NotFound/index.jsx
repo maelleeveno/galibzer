@@ -11,9 +11,9 @@ const NotFound = () => {
     return(
         <Layout>
             <Title title="404 | Pacôme Gabrillagues"/>
-            <section class="not-found">
+            <section className="not-found">
                 <Image src={gif404} className="gif404" centered alt=""/>
-                <p class="oops bold">Oops, wrong way.</p>
+                <p className="oops bold">Oops, wrong way.</p>
                 <Link to="/home"><p><Icon name="arrow left"/>Keep calm and go back home.</p></Link>
             </section>
         </Layout>
