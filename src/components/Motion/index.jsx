@@ -7,6 +7,7 @@ import './motion.scss';
 import 'swiper/swiper.scss';
 
 import Hennessy from './hennessy';
+import Perso from './perso';
 import Omsc from './omsc';
 import AirFrance from './airfrance';
 import Peugeot from './peugeot';
@@ -18,8 +19,9 @@ import ChicagoFire from './chicagofire';
 
 const Motion = () => {
 
-	const [state, setState] = useState({ items: [<Hennessy/>, <Omsc/>] });
+	const [state, setState] = useState({ items: [<Hennessy/>, <Perso/>] });
 	const [extraComponents] = useState([
+		<Omsc/>,
 		<AirFrance/>,
 		<BigInJapan/>,
 		<Orangina/>,
