@@ -60,7 +60,7 @@ export default class About extends Component {
 				</div>
 				<div className="softwares">
 					<p>Motion design | Compositing | Director</p>
-					<p>AfterEffect | Photoshop | Illustrator | Premiere</p>
+					<p>AfterEffects | Animate | Photoshop | Illustrator | Premiere</p>
 				</div>
 			</section>
 		);
