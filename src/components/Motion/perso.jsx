@@ -6,6 +6,7 @@ import './motion.scss';
 import perso1 from '../../assets/images/motion/perso/PERSO_1.gif';
 import perso2 from '../../assets/images/motion/perso/PERSO_2.gif';
 import perso3 from '../../assets/images/motion/perso/PERSO_3.gif';
+import perso4 from '../../assets/images/motion/perso/PERSO_4.gif';
 
 const Perso = () => {
 
@@ -43,6 +44,7 @@ const Perso = () => {
                             <img className="gif swiper-slide" src={perso1} alt="" />
                             <img className="gif swiper-slide" src={perso2} alt="" />
                             <img className="gif swiper-slide" src={perso3} alt="" />
+                            <img className="gif swiper-slide" src={perso4} alt="" />
                         </Swiper>
                     </Grid.Column>
                     <Grid.Column className="project-desc">
