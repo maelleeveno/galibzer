@@ -7,6 +7,7 @@ import perso1 from '../../assets/images/motion/perso/PERSO_1.gif';
 import perso2 from '../../assets/images/motion/perso/PERSO_2.gif';
 import perso3 from '../../assets/images/motion/perso/PERSO_3.gif';
 import perso4 from '../../assets/images/motion/perso/PERSO_4.gif';
+import perso5 from '../../assets/images/motion/perso/PERSO_5.gif';
 
 const Perso = () => {
 
@@ -41,6 +42,7 @@ const Perso = () => {
                 <Grid.Row columns={2}>
                     <Grid.Column className="carousel">
                         <Swiper {...params} className="swiper-carousel">
+                            <img className="gif swiper-slide" src={perso5} alt="" />
                             <img className="gif swiper-slide" src={perso1} alt="" />
                             <img className="gif swiper-slide" src={perso2} alt="" />
                             <img className="gif swiper-slide" src={perso3} alt="" />
