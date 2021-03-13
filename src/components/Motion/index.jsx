@@ -33,7 +33,7 @@ const Motion = () => {
 	const [count, setCount] = useState(0);
 	const [hasMore, setHasMore] = useState(true);
 	const fetchMoreData = () => {
-		if(state.items.length >= 8 ) {
+		if(state.items.length >= 10 ) {
 			setHasMore(false);
 			return;
 		}
