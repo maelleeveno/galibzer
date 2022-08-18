@@ -5,10 +5,15 @@ import './about.scss';
 export default class About extends Component {
 	render() {
 
+		let newDate = new Date();
+		let currentYear = newDate.getFullYear();
+		let age = currentYear - 1987;
+		let workPeriod = currentYear - 2012;
+		console.log(newDate);
 		let resumeData = {
 			"siteName": "Pacôme Gabrillagues", 
-			"aboutFr": "33 ans, originaire de Bretagne et parisien d’adoption. Diplômé de l’ESRA Bretagne en 2012. Évolue dans le motion design et le compositing depuis 8 ans à Paris. Sportif, voyageur à vélo.", 
-			"aboutEn": "33 years old, native of Brittany and Parisian by adoption. Graduated from ESRA in 2012. Work as a motion designer and CG artist for 8 years in Paris. Sport lover, bike traveler.",
+			"aboutFr": age + " ans, originaire de Bretagne et parisien d’adoption. Diplômé de l’ESRA Bretagne en 2012. Évolue dans le motion design et le compositing depuis " + workPeriod + " ans à Paris. Sportif, voyageur à vélo.", 
+			"aboutEn": age + " years old, native of Brittany and Parisian by adoption. Graduated from ESRA in 2012. Work as a motion designer and CG artist for " + workPeriod + " years in Paris. Sport lover, bike traveler.",
 			"contact": [
 				{
 					"name": "mail",
