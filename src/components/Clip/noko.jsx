@@ -56,7 +56,7 @@ const Kaviar = () => {
 							<div className={showDesc}>
 								<p><span className="bold">Performed by</span><br/>De Noko (KasbaH remix)</p>
 								<p><span className="bold">Directed by</span><br/>Pacôme Gabrillagues</p>
-								<p><span className="bold">Produced by</span><br/><a href="https://radiochiguiro.com/" title="Radio Chiguiro">Radio Chiguiro Records</a></p>
+								<p><span className="bold">Produced by</span><br/><a href="https://radiochiguiro.com/" title="Radio Chiguiro" target="_blank">Radio Chiguiro Records</a></p>
 								<a href="https://youtu.be/3OSW5Pn391A" target="_blank" rel="noreferrer"><p className="view-more"><Icon name="youtube"/> View more</p></a>
 							</div>
 						</div>
