@@ -1,5 +1,5 @@
 #compo {
-    height: 100vh;
+    //height: 100vh;
 
     iframe {
         margin: 0 auto;
@@ -7,9 +7,17 @@
 
     .desc {
         font-style: italic;
-    
-        p {
-            margin: 1rem 0;
+        margin-bottom: 50px;
+    }
+    .other-works {
+        margin: 20px auto;
+
+        .other-work-item {
+            margin-bottom: 50px;
+            
+            p {
+                font-style: italic;
+            }
         }
     }
 }
