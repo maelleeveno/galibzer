@@ -1,6 +1,6 @@
 # Galibzer
 
-React web app project created on december 2020 for Pacôme Gabrillagues, motion designer based in Paris
+React web app project created on december 2020 for Pacôme Gabrillagues, motion designer based in Brittany.
 
 *Visit the website [here](https://galibzer.com) !*
 
