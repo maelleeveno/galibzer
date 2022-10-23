@@ -6,20 +6,21 @@ import Title from '../Title';
 import './clip.scss';
 import 'react-multi-carousel/lib/styles.css';
 
+import Noko from './noko';
 import Kaviar from './kaviar';
 import Maxis from './maxis';
 import Dusty from './dusty';
 
 const Clip = () => {
 
-	const [state, setState] = useState({ items: [<Kaviar/>, <Maxis/>] });
+	const [state, setState] = useState({ items: [<Noko/>, <Kaviar/>, <Maxis/>] });
 	const [extraComponents] = useState([
 		<Dusty/>
 	]);
 	const [count, setCount] = useState(0);
 	const [hasMore, setHasMore] = useState(true);
 	const fetchMoreData = () => {
-		if(state.items.length >= 3 ) {
+		if(state.items.length >= 4 ) {
 			setHasMore(false);
 			return;
 		}
