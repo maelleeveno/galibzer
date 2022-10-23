@@ -12,7 +12,7 @@ export default class About extends Component {
 		console.log(newDate);
 		let resumeData = {
 			"siteName": "Pacôme Gabrillagues", 
-			"aboutFr": "Breton de " + age + " ans. Diplômé de l’ESRA Bretagne en 2012. Motion design et le compositing depuis " + workPeriod + " ans. Sportif, voyageur à vélo.", 
+			"aboutFr": "Breton de " + age + " ans. Diplômé de l’ESRA Bretagne en 2012. Evolue dans le motion design et le compositing depuis " + workPeriod + " ans. Sportif, voyageur à vélo.", 
 			"aboutEn": age + " years old, native of Brittany. Graduated from ESRA in 2012. Work as a motion designer and CG artist for " + workPeriod + " years. Sport lover, bike traveler.",
 			"contact": [
 				{
