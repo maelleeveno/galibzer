@@ -45,6 +45,7 @@ const Orangina = () => {
                         <div className="project-presentation">
                             <div className="project-title" onClick={onClick}>Orangina <Icon name={arrowDir}/></div>
                             <div className={showDesc}>
+                                <p><span className="bold">About the project</span><br/>2022 new signature</p>
                                 <p><span className="bold">Produced by</span><br/>General Pop @ BETC</p>
                             </div>
                         </div>

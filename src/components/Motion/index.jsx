@@ -19,12 +19,12 @@ import ChicagoFire from './chicagofire';
 
 const Motion = () => {
 
-	const [state, setState] = useState({ items: [<Hennessy/>, <Perso/>] });
+	const [state, setState] = useState({ items: [<Hennessy/>, <Orangina/>] });
 	const [extraComponents] = useState([
+		<Perso/>,
 		<Omsc/>,
 		<AirFrance/>,
 		<BigInJapan/>,
-		<Orangina/>,
 		<Peugeot/>,
 		<DeParis/>,
 		<Leclerc/>,
