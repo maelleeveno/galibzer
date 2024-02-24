@@ -11,7 +11,7 @@ const Footer = () => {
                     <span> \ </span>
                     <span><a href="#cookies">Gérer les cookies</a></span>
                 </div>
-                <div id="credits">Made with <Icon name="heart outline"/> by <a href="https://www.maelleeveno.fr" target="_blank" rel="noreferrer">ME</a> &copy; {(new Date().getFullYear())}</div>
+                <div id="credits">Made with <Icon name="heart outline"/> by <a href="https://bit.ly/maelleeveno" target="_blank" rel="noreferrer">ME</a> &copy; {(new Date().getFullYear())}</div>
             </div>
         </footer>
     );
